@@ -9,7 +9,7 @@ const teamMembers = [
     socials: {
       linkedin: "#",
       twitter: "#",
-      website: "#",
+      website: "https://shimwa.me",
     },
   },
   {
