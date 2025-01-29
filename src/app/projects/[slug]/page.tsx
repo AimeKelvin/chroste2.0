@@ -25,14 +25,14 @@ const projects = [
     budget: "$2,000",
   },
   {
-    title: "Jersey Ecommerce",
-    description: "An online eCommerce created to sell jerseys online.",
-    image: "/jersey.png",
-    url: "https://jerseystore.com",
-    slug: "ecommerce",
-    tools: ["Shopify", "React", "Stripe"],
-    inspiration: "Premium sportswear shopping experience",
-    budget: "$3,000",
+    title: "Chroste",
+    description: "A digital marketting agency.",
+    image: "https://www.chroste.com/assets/chroste%20landing%20page.png",
+    url: "https://chroste.com",
+    slug: "business",
+    tools: ["Framer motion", "React", "Next"],
+    inspiration: "Premium portfolio business website fro chroste labs.",
+    budget: "$400",
   },
 ];
 
@@ -89,7 +89,7 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
 
         {/* Right Side - Iframe Preview */}
         <div className="flex-1 flex justify-center w-full">
-          <div className="w-full max-w-[700px] aspect-[16/9] rounded-lg shadow-md border border-gray-700 overflow-hidden">
+          <div className="w-full sm:w-[500px] md:w-[600px] lg:w-[640px] h-[250px] sm:h-[350px] md:h-[400px] lg:h-[450px] rounded-lg shadow-md border border-gray-700 overflow-hidden">
             <iframe
               src={project.url}
               className="w-full h-full border-none grayscale"

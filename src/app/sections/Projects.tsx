@@ -21,10 +21,10 @@ const projects = [
     slug: "arserve"
   },
   {
-    title: "Jersey Ecommerce",
-    description: "An online eCommerce created to sell jerseys online.",
-    image: "/jersey.png",
-    slug: "ecommerce"
+    title: "Chroste",
+    description: "A digital marketting agency.",
+    image: "/chroste.png",
+    slug: "business"
   },
   {
     title: "HomeScout",
