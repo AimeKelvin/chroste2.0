@@ -3,7 +3,7 @@ import Services from './sections/Services'
 import Projects from './sections/Projects'
 import Testimonials from './sections/Testimonials'
 import Pricing from './sections/Pricing'
-
+import Cta from '../components/cta'
 import {CheckIcon} from 'lucide-react'
 
   
@@ -63,7 +63,7 @@ export default function Home() {
     <Projects/>
     <Testimonials testimonials={testimonialsData} />
     <Pricing />
-   
+    <Cta />
     </>
   );    
 }
