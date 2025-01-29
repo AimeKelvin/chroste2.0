@@ -15,6 +15,16 @@ const projects = [
     budget: "$1,500",
   },
   {
+    title: "Virtual Tailor",
+    description: "A 3D Tshirt customizer app for an immersive customization experience.",
+    image: "/virtual.png",
+    url: "https://virtual3d.vercel.app",
+    slug: "tailor",
+    tools: ["Next.js", "Threejs", "ThreeFiber", "PostgreSQL"],
+    inspiration: "A need for a an immersive shopping experience",
+    budget: "$1,500",
+  },
+  {
     title: "Ben Real Estate",
     description: "A real estate listing platform for Ben Real Estate Kigali.",
     image: "/ben.png",

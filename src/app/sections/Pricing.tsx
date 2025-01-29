@@ -77,7 +77,7 @@ export default function Pricing({ className }: { className?: string }) {
   )
 
   return (
-    <section
+    <section id="Price"
       className={cn(
         "relative bg-background text-foreground",
         "py-12 px-4 md:py-24 lg:py-32",

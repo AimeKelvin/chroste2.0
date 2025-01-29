@@ -23,14 +23,14 @@ const projects = [
   {
     title: "Chroste",
     description: "A digital marketting agency.",
-    image: "/chroste.png",
-    slug: "business"
+    image: "/chorste.png",
+    slug: "chroste"
   },
   {
-    title: "HomeScout",
-    description: "Real Estate listing mobile application for Android and iOS.",
-    image: "/HomeScout",
-    slug: "homescout"
+    title: "Virtual Tailor",
+    description: "A 3D Tshirt customizer app for an immersive customization experience.",
+    image: "/virtual.png",
+    slug: "tailor" // Replace with actual image URL
   },
   {
     title: "Umurava EdTech",
@@ -42,7 +42,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <div className="w-full py-20 px-4">
+    <div className="w-full py-20 px-4" id="Projects">
       <div className="container mx-auto">
         <div className="flex flex-col gap-10">
           <div className="flex gap-4 flex-col items-center">

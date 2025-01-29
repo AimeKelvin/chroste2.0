@@ -14,7 +14,7 @@ export default function Services() {
   ];
 
   return (
-    <section className="w-full py-20 bg-background mt-10">
+    <section className="w-full py-20 bg-background mt-10" id="Services">
       <div className="container mx-auto px-4">
         {/* Header Section */}
         <div className="text-center">
