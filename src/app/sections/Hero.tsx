@@ -29,7 +29,7 @@ export default function Hero() {
       <div className="absolute inset-0 -z-10 h-full w-full bg-white bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:14px_24px]"><div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-fuchsia-400 opacity-20 blur-[100px]"></div></div>
       {/* Content Wrapper */}
       <div className="container mx-auto relative z-10">
-        <div className="flex gap-8 py-20 lg:py-40 items-center justify-center flex-col">
+        <div className="flex gap-8 py-20 items-center justify-center flex-col">
           <div>
             <Button variant="secondary" size="sm" className="gap-4">
               Welcome to Apollo Studios
@@ -64,13 +64,13 @@ export default function Hero() {
               </span>
             </h1>
 
-            <p className="text-lg md:text-xl leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
+            <p className="text-md  leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
               At Apollo Studios, we craft visionary websites that fuse creativity with cutting-edge technology, delivering unparalleled digital experiences.
             </p>
           </div>
           <div className="flex flex-row gap-3">
             <Button size="lg" className="gap-4" variant="outline">
-              Book a Consultation <PhoneCall className="w-4 h-4" />
+              Get in contact <PhoneCall className="w-4 h-4" />
             </Button>
             <Button size="lg" className="gap-4">
               Get Started <MoveRight className="w-4 h-4" />
