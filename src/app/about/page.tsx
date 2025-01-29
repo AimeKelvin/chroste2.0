@@ -4,17 +4,17 @@ const teamMembers = [
   {
     name: "Shimwa Aime Kelvin",
     role: "Founder & CEO",
-    image: "/marketting.jpg",
+    image: "/ceo.jpg",
   },
   {
     name: "Gishinge Elie",
     role: "Marketting Director",
-    image: "/ceo.jpg",
+    image: "/markettinge.jpg",
   },
   {
     name: "Kwizera Caleb",
     role: "Lead Developer",
-    image: "/backend.jpg",
+    image: "/backend.jpeg",
   },
 ];
 
