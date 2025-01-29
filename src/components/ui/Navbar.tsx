@@ -15,8 +15,10 @@ export default function Navbar() {
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-gray-600 text-sm">
           <li><a href="/" className="hover:text-gray-900">Home</a></li>
-          <li><a href="/About" className="hover:text-gray-900">Services</a></li>
-          <li><a href="/Contact" className="hover:text-gray-900">Contact</a></li>
+          <li><a href="#Services" className="hover:text-gray-900">Services</a></li>
+          <li><a href="#Projects" className="hover:text-gray-900">Projects</a></li>
+          <li><a href="#Price" className="hover:text-gray-900">Price</a></li>
+          <li><a href="/about" className="hover:text-gray-900">About</a></li>
         </ul>
 
         {/* CTA Button */}

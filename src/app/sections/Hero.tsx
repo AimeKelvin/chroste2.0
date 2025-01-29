@@ -24,9 +24,7 @@ export default function Hero() {
 
   return (
     <div className="w-full relative">
-      {/* Background gradient and radial effects */}
-      
-      {/* Content Wrapper */}
+     
       <div className="container mx-auto relative z-10">
         <div className="flex gap-8 py-20 items-center justify-center flex-col">
           <div>
