@@ -4,22 +4,15 @@ import * as React from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
-import { Switch } from "@/components/ui/switch"
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip"
-import { Facebook, Instagram, Linkedin, Moon, Send, Sun, Twitter } from "lucide-react"
+import { Facebook, Instagram, Linkedin, Send, Twitter } from "lucide-react"
 
 export default function Footer() {
-  const [isDarkMode, setIsDarkMode] = React.useState(true)
-
-  React.useEffect(() => {
-    document.documentElement.classList.toggle("dark", isDarkMode)
-  }, [isDarkMode])
-
   return (
     <footer className="border-t bg-background text-foreground transition-colors duration-300">
       <div className="container mx-auto px-4 py-12 md:px-6 lg:px-8">
@@ -69,11 +62,6 @@ export default function Footer() {
                   </Tooltip>
                 </TooltipProvider>
               ))}
-            </div>
-            <div className="mt-6 flex items-center space-x-2">
-              <Sun className="h-4 w-4" />
-              <Switch checked={isDarkMode} onCheckedChange={setIsDarkMode} />
-              <Moon className="h-4 w-4" />
             </div>
           </div>
         </div>
