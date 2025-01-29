@@ -50,13 +50,13 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             {project.title}
           </Badge>
           <h1 className="text-3xl md:text-4xl font-bold">{project.title}</h1>
-          <p className="text-gray-400 leading-relaxed">{project.description}</p>
+          <p className="text-gray-600 leading-relaxed">{project.description}</p>
 
           {/* Extra Info */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
             <div>
               <h3 className="text-lg font-semibold text-white">Tools Used</h3>
-              <ul className="text-gray-400 text-sm list-disc list-inside">
+              <ul className="text-gray-600 text-sm list-disc list-inside">
                 {project.tools.map((tool) => (
                   <li key={tool}>{tool}</li>
                 ))}
@@ -64,11 +64,11 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
             </div>
             <div>
               <h3 className="text-lg font-semibold text-white">Budget</h3>
-              <p className="text-gray-400 text-sm">{project.budget}</p>
+              <p className="text-gray-600 text-sm">{project.budget}</p>
             </div>
             <div className="col-span-1 md:col-span-2">
               <h3 className="text-lg font-semibold text-white">Inspiration</h3>
-              <p className="text-gray-400 text-sm">{project.inspiration}</p>
+              <p className="text-gray-600 text-sm">{project.inspiration}</p>
             </div>
           </div>
 
@@ -79,8 +79,8 @@ export default function ProjectPage({ params }: { params: { slug: string } }) {
                 Visit Site
               </Button>
             </Link>
-            <Link href="/projects">
-              <Button variant="outline" className="border-gray-500 text-gray-400 hover:text-white hover:border-white px-5 py-2.5 rounded-lg text-sm w-full sm:w-auto">
+            <Link href="/">
+              <Button variant="outline" className="border-black text-black hover:text-white hover:border-white px-5 py-2.5 rounded-lg text-sm w-full sm:w-auto">
                 Back to Projects
               </Button>
             </Link>
