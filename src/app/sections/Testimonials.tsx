@@ -1,5 +1,5 @@
 "use client"
-
+import { Badge } from "@/components/ui/badge"
 import { useState } from "react"
 import Image from "next/image"
 import { cn } from "@/lib/utils"
@@ -38,7 +38,11 @@ export default function Testimonials({
 
   return (
     <div className={className}>
+
       <div className="flex flex-col items-center justify-center pt-5">
+      <div className="justify-content-center items-center mb-2">
+        <Badge>Reviews</Badge>
+      </div>
         <div className="flex flex-col gap-5 mb-8">
           <h2 className="text-center text-4xl font-medium">{title}</h2>
           <p className="text-center text-muted-foreground">
