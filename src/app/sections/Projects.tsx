@@ -1,6 +1,7 @@
 import Link from 'next/link'
+import {Badge} from '../../components/ui/badge'
 
-const projects = [
+ const projects = [
   {
     title: "Auracity",
     description: "A social media app created for students of SOS Technical Highschool.",
