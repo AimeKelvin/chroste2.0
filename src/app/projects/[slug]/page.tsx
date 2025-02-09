@@ -54,8 +54,17 @@ const projects = [
     inspiration: "Premium portfolio business website fro chroste labs.",
     budget: "$400",
   },
+  {
+    title: "Umurava Edtech",
+    description: "Skills Challenge Platform for Umurava to facilitate challenges and hackathon accessibility.",
+    image: "https://www.chroste.com/assets/chroste%20landing%20page.png",
+    url: "https://umurava-app.vercel.app",
+    slug: "chroste",
+    tools: ["Framer motion", "React", "Next", "Redux","MongoDB","0Auth", "Tailwind"],
+    inspiration: "A dev skills competition ",
+    budget: "$500",
+  },
 ];
-
 export default function ProjectPage({ params }: { params: { slug: string } }) {
   const project = projects.find((p) => p.slug === params.slug);
   if (!project) return notFound(); // 404 if project not found
