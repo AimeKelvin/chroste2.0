@@ -17,7 +17,7 @@ import {Badge} from '../../components/ui/badge'
   {
     title: "Arserve Multiservice",
     description: "A stunning event website for Arserve Multiservice and catering business based in Kigali.",
-    image: "/Arserve.png",
+    image: "/arserve.png",
     slug: "arserve"
   },
   {
