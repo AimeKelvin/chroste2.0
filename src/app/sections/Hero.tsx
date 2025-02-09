@@ -29,12 +29,12 @@ export default function Hero() {
         <div className="flex gap-8 py-20 items-center justify-center flex-col">
           <div>
             <Button variant="secondary" size="sm" className="gap-4">
-              Welcome to Apollo Studios
+              Welcome to Chroste Labs
             </Button>
           </div>
           <div className="flex gap-4 flex-col">
             <h1 className="text-5xl md:text-7xl max-w-2xl tracking-tighter text-center font-regular">
-              <span className="text-spektr-cyan-50">Apollo Delivers </span>
+              <span className="text-spektr-cyan-50">Chroste Delivers </span>
               <span className="relative flex w-full justify-center overflow-hidden text-center md:pb-4 md:pt-1">
                 &nbsp;
                 {titles.map((title, index) => (
@@ -62,7 +62,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-md  leading-relaxed tracking-tight text-muted-foreground max-w-2xl text-center">
-              At Apollo Studios, we craft visionary websites that fuse creativity with cutting-edge technology, delivering unparalleled digital experiences.
+              At Chroste Labs, we craft visionary websites that fuse creativity with cutting-edge technology, delivering unparalleled digital experiences.
             </p>
           </div>
           <div className="flex flex-row gap-3">

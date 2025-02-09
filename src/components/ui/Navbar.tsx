@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav className="bg-transparent p-4">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-lg font-semibold">Apollo Studios</h1>
+        <h1 className="text-lg font-semibold">Chroste</h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-gray-600 text-sm">
