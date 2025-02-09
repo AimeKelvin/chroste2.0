@@ -59,7 +59,7 @@ const projects = [
     description: "Skills Challenge Platform for Umurava to facilitate challenges and hackathon accessibility.",
     image: "https://www.chroste.com/assets/chroste%20landing%20page.png",
     url: "https://umurava-app.vercel.app",
-    slug: "chroste",
+    slug: "umurava",
     tools: ["Framer motion", "React", "Next", "Redux","MongoDB","0Auth", "Tailwind"],
     inspiration: "A dev skills competition ",
     budget: "$500",
